@@ -395,3 +395,134 @@ a:hover{
     font-size: 14px;
     margin-left: 10px;
 }
+.container-dkv h1{
+    color: #0C084C;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 70px;
+    font-size: 50px;
+}
+.container-dkv h1 span {
+    font-weight: 300;
+}
+.navbar2{
+    display: flex;
+    gap: 100px;
+    width: 70%;
+    margin: auto;
+}
+.videodkv iframe{
+    margin-top: 135px;
+    border-radius: 10px;
+    margin-left: -25px;
+}
+.teks {
+    font-size: 52px;
+}
+.navbar2 h1{
+    color: #0C084C;
+    justify-content: center;
+    display: flex;
+    margin-top: 115px;
+    font-size: 50px;
+    margin-left: -15px;
+}
+.teks1 {
+    color: #0C084C;
+    text-align: left;
+    font-size: 13px;
+    margin-top: -45px;
+    margin-left: -15px;
+}
+.listdkv {
+    text-align: left;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: -30px;
+    gap: 10px;
+    margin-bottom: 100px ;
+}
+.listdkv li{
+    padding-bottom: 5.25px;
+}
+.kanan .listdkv i{
+    color: #F1A204;
+}
+.kanan i{
+    color: white;
+}
+.lihat{
+    background-color: #0C084C;
+    padding: 10px;
+    font-size: 16px;
+    margin:100px;
+    border-radius: 5px;
+    color:white;
+    text-align: center;
+    font-weight: 700;
+    margin-top: -45px;
+    margin-left: -20px;   
+}
+.videodkv h2{
+    color: #0C084C;
+    text-align: left;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: -25px;
+}
+.videodkv p{
+    color: #0C084C;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 0.1px;
+    margin-left: -25px;
+}
+.videodkv p b{
+    color: #0C084C;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 0.1px;
+}
+.teksporto span{
+    font-size: 50px;
+    color: #0C084C;
+}
+.teksporto{
+    padding-top: 100px;
+}
+.teksporto p{
+    color: #0C084C;
+    font-size: large;
+}
+.container-foto{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.foto1 h1{
+    color: #0C084C;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    height: 150px;
+    /* background-color: #0C084C; */
+}
+.foto1 p{
+    color: black;
+    text-align: left;
+    padding-top: -100px;
+}
+.modul{
+    background-color: #F1A204;
+    border-radius: 8px;
+}
+.modul p{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+}
+.modul i{
+    color: white;
+}
