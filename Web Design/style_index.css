@@ -7,7 +7,7 @@
     font-size: 15px;
 }
 .contact a{
-    background-color: #F1A204;
+    background-color: hsl(40, 97%, 48%);
     border-radius: 5px;
     padding: 20px;
     color: white;
@@ -238,16 +238,10 @@ a:hover{
     max-width: 1100px;
     margin: auto;
 }
-.title{
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 50px;
-    font-weight: 600;
-    margin-top: 100px;
-}
 .filter-buttons{
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 100px;
 }
 .filter-btn{
     border: 1px solid #ddd;
@@ -270,6 +264,7 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    margin-top: 100px;
 }
 .gambar{
     width: 30%;
@@ -411,6 +406,9 @@ a:hover{
     width: 70%;
     margin: auto;
 }
+.videodkv img{
+    margin-top: 100px;
+}
 .videodkv iframe{
     margin-top: 135px;
     border-radius: 10px;
@@ -489,6 +487,7 @@ a:hover{
 }
 .teksporto{
     padding-top: 100px;
+    text-align: center;
 }
 .teksporto p{
     color: #0C084C;
@@ -525,4 +524,78 @@ a:hover{
 }
 .modul i{
     color: white;
+}
+.containerfoto2{
+    display: flex;
+    gap: 50px;
+    margin-left: -520px;
+    margin-top: -45px;
+}
+.foto2 h2{
+    color: #0C084C;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 1px;
+}
+.foto2 p{
+    color: black;
+    text-align: left;
+    margin-left: 1px;
+    font-size: 13px;
+}
+.foto2 .modul{
+    background-color: #F1A204;
+    border-radius: 8px;
+}
+.foto2 .modul p{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+}
+.foto2 .modul i{
+    color: white;
+}
+.sertifikasi{
+    margin-top: 100px;
+}
+.sertifikasi span{
+    font-size: 50px;
+}
+.berikut{
+    color: black;
+    text-align: center;
+    margin-top: -50px;
+}
+.containerserti{
+    font-size: 25px;
+    margin-top: 120px;
+}
+.containerserti p{
+    color: #0C084C;
+    margin-left: 120px;
+}
+.listserti{
+    margin-left: 100px;
+}
+.fotoserti{
+    margin-left: 100px;
+}
+.listserti i{
+    color: #F1A204;
+}
+.BNSP{
+    margin-top: 50px;
+}
+.navbarserti{
+    display: flex;
+}
+.containerserti .text{
+    color: #0C084C;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 500;
+    margin-top: 15px;
 }
