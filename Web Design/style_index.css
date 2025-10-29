@@ -5,6 +5,9 @@
     color: #687279;
     font-weight: 500;
     font-size: 15px;
+    box-sizing: border-box;
+    /* overflow: hidden;
+    z-index: 0; */
 }
 .contact a{
     background-color: hsl(40, 97%, 48%);
@@ -416,6 +419,14 @@ a:hover{
     border-radius: 10px;
     margin-left: -25px;
 }
+.videodkv1 img{
+    margin-top: 100px;
+}
+.videodkv1 iframe{
+    margin-top: 135px;
+    border-radius: 10px;
+    margin-left: -25px;
+}
 .teks {
     font-size: 52px;
 }
@@ -477,7 +488,27 @@ a:hover{
     margin-top: 0.1px;
     margin-left: -25px;
 }
-.videodkv p b{
+.videodkv1 p b{
+    color: #0C084C;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 0.1px;
+}
+.videodkv1 h2{
+    color: #0C084C;
+    text-align: left;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: -25px;
+}
+.videodkv1 p{
+    color: #0C084C;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 0.1px;
+    margin-left: -25px;
+}
+.videodkv1 p b{
     color: #0C084C;
     text-align: left;
     font-size: 20px;
@@ -527,10 +558,23 @@ a:hover{
 .modul i{
     color: white;
 }
+.modul1{
+    background-color: #F1A204;
+    border-radius: 8px;
+}
+.modul1 p{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+}
+.modul1 i{
+    color: white;
+}
 .containerfoto2{
     display: flex;
     gap: 50px;
-    margin-left: -520px;
+    justify-content: center;
     margin-top: -45px;
 }
 .foto2 h2{
@@ -661,4 +705,332 @@ a:hover{
 }
 .hubungi i{
     color: white;
+}
+@media screen and (max-width: 430px) {
+    .container,
+    .navbar,
+    .logo,
+    .menu,
+    .beranda,
+    .contact,
+    .hero,
+    .deskripsi,
+    .atasDesc,
+    .dengan,
+    .kotakWA,
+    .program,
+    .daftar,
+    .photo,
+    .gambarorang,
+    .partner,
+    .partner-head,
+    .sponsor,
+    .Perusahaan,
+    .mengapa,
+    .mengapa1,
+    .kami,
+    .navbar1,
+    .border,
+    .gambar1,
+    .vocational,
+    .list,
+    .border1,
+    .professional,
+    .gambar2,
+    .border2,
+    .gambar3,
+    .religious,
+    .text,
+    .jurusan,
+    .tkj,
+    .tekstkj,
+    .tekaje,
+    .buttontext,
+    .silabus,
+    .dkv,
+    .teksdkv,
+    .dekape,
+    .rpl,
+    .teksrpl,
+    .erpeel,
+    .teksporto,
+    .container-dkv,
+    .navbar2,
+    .kanan,
+    .teks,
+    .teks1,
+    .listdkv,
+    .lihat,
+    .videodkv,
+    .container-foto,
+    .foto1,
+    .modul,
+    .container-gallery,
+    .filter-buttons,
+    .filter-btn,
+    .active,
+    .gallery,
+    .gambar,
+    .desain-grafis,
+    .desain-3d,
+    .fotografi,
+    .containerfoto2,
+    .foto2,
+    .sertifikasi,
+    .berikut,
+    .containerserti,
+    .navbarserti,
+    .listserti,
+    .BNSP,
+    .fotoserti,
+    .navbarserti2,
+    .text,
+    .daftar1,
+    .Raih,
+    .containerdaftarr,
+    .containerdaftar,
+    .daftartengah,
+    .bergabung,
+    .dengan,
+    .untuk,
+    .hubungi
+    {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .menu ul {
+        flex-direction: column;
+        gap: 25px;
+        left: 0;
+        margin: auto;
+        padding: 0;
+    }
+    .contact a{
+        padding: 12px;
+        margin: auto;
+        margin-left: -30px;
+    }
+    .hero h1{
+        font-size: 30px;
+    }
+    .hero h3{
+        font-size: 15px;
+    }
+    .deskripsi li{
+        text-align: left;
+    }
+    .kotakWA{
+        display: flex;
+    }
+    .program{
+        padding-left: 2px;
+    }
+    .partner-head{
+        font-size:12px;
+    }
+    .Perusahaan{
+        font-size: 12px;
+    }
+    .sponsor{
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .sponsor img{
+        width: 35%;
+        height: 50%;
+    }
+    .mengapa h1{
+        font-size:30px;
+        margin-right: 20px;
+    }
+    .mengapa span{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .kami p{
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    .list{
+        text-align: left;
+    }
+    .list li{
+        font-size: 15px; 
+    }
+    .border{
+        width: 95%;
+        height: 20%;
+        margin-left: 10px;
+    }
+    .border1{
+        width: 95%;
+        height: 20%;
+        margin-left: 10px;
+    }
+    .border2{
+        width: 95%;
+        height: 20%;
+        margin-left: 10px;
+    }
+    .vocational{
+        font-size: 20px;
+    }
+    .professional{
+        font-size: 20px;
+    }
+    .religious{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 30px;
+    }
+    .jawa{
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    .tkj{
+        margin-left: 10px;
+        width: 95%;
+        height: 20%;
+    }
+    .tekstkj{
+        width: 90%;
+    }
+    .tekaje{
+        font-size: 13px;
+    }
+    .dkv{
+        width: 95%;
+        height: 20%;
+        margin-left: 10px;
+    }
+    .teksdkv{
+        width: 90%;
+    }
+    .dekape{
+        font-size: 13px;
+    }
+    .rpl{
+        width: 95%;
+        height: 20%;
+        margin-left: 10px;
+    }
+    .teksrpl{
+        width: 90%;
+    }
+    .erpeel{
+        font-size: 13px;
+    }
+    .buttontext li{
+        text-align: left;
+        font-size: 13px;
+    }
+    .silabus{
+        width: 90%;
+    }
+    .teksporto h1{
+        font-size: 30px;
+    }
+    .teksporto span{
+        font-size: 30px;
+    }
+    .teksporto p{
+        font-size: 15px;
+    }
+    .teks{
+        font-size: 30px;
+        
+    }
+    .kanan h1{
+        font-size: 30px;
+        margin-right: 70px;
+    }
+    .teks1{
+        margin-left: 5px;
+    }
+    .listdkv li{
+        text-align: left;
+        margin-left: 30px;
+        font-size: 12px;
+    }
+    .lihat{
+        width: 95%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .videodkv iframe{
+        width: 355px;
+        height: 200px;
+        margin-left: 1px;
+        margin-top: -50px; 
+    }
+    .videodkv h2{
+        font-size: 18px;
+        text-align: center;
+        margin-right: 30px;
+    }
+    .videodkv p{
+        font-size: 13px;
+        text-align: center;
+        margin-right: 30px;
+    }
+    .videodkv p b{
+        font-size: 15px;
+        margin-right: 150px;
+    }
+    .foto1 img{
+        width: 192px;
+        height: 190px;
+    }
+    .foto1 h1{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    .foto1 p{
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: -60px;
+    }
+    .modul{
+        width: 95%;
+        margin-left: 10px;
+    }
+    .modul p{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .modul1{
+        width: 95%;
+        margin-left: 10px;
+    }
+    .modul1 p{
+        margin-top: 40px;
+        margin-bottom: 130px;
+    }
+    .videodkv1 iframe{
+        width: 355px;
+        height: 200px;
+        margin-left: 1px;
+        margin-top: -50px; 
+    }
+    .videodkv1 h2{
+        font-size: 18px;
+        text-align: center;
+        margin-right: 150px;
+    }
+    .videodkv1 p{
+        font-size: 13px;
+        text-align: center;
+        margin-right: 115px;
+    }
+    .videodkv1 p b{
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    .filter-buttons{
+        width: 95%;
+        margin-left: 5px;
+    }
 }

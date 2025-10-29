@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        *{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        h1{
+            text-align: center;
+        }
+        .dkv{
+            background-color: rgb(135, 64, 201);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .rpl{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .tkj{
+            background-color: orange;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .container{
+            display: flex;
+            margin: auto;
+            justify-content: space-around;
+        }
+
+        @media screen and (max-width:430px) {
+            *{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .container{
+                flex-direction: column;
+            }
+            .dkv,.tkj,.rpl{
+                margin-bottom: 20px;
+            }
+            h1{
+                font-size: 25px;
+                margin-top: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Jurusan SMK</h1>
+    <div class="container">
+        <div class="dkv">
+            <h2>DKV</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="rpl">
+            <h2>RPL</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="tkj">
+            <h2>TKJ</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+    </div>
+</body>
+</html>
