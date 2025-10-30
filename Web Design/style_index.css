@@ -110,6 +110,7 @@ a:hover{
     padding: 10px;
     border-width: 2px;
     cursor: pointer;
+    margin-right: 10px;
 }
 .partner{
     width: 85%;
@@ -427,6 +428,14 @@ a:hover{
     border-radius: 10px;
     margin-left: -25px;
 }
+.videodkv2 img{
+    margin-top: 100px;
+}
+.videodkv2 iframe{
+    margin-top: 135px;
+    border-radius: 10px;
+    margin-left: -25px;
+}
 .teks {
     font-size: 52px;
 }
@@ -508,7 +517,21 @@ a:hover{
     margin-top: 0.1px;
     margin-left: -25px;
 }
-.videodkv1 p b{
+.videodkv2 h2{
+    color: #0C084C;
+    text-align: left;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: -25px;
+}
+.videodkv2 p{
+    color: #0C084C;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 0.1px;
+    margin-left: -25px;
+}
+.videodkv2 p b{
     color: #0C084C;
     text-align: left;
     font-size: 20px;
@@ -941,7 +964,6 @@ a:hover{
     }
     .teks{
         font-size: 30px;
-        
     }
     .kanan h1{
         font-size: 30px;
@@ -1032,5 +1054,96 @@ a:hover{
     .filter-buttons{
         width: 95%;
         margin-left: 5px;
+    }
+    .videodkv2 img{
+        width: 380px;
+        height: 220px;
+        margin-bottom: 100px;
+        margin-top: -20px;
+    }
+    .foto2 img{
+        margin-top: -20px;
+    }
+    .foto2 h2{
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    .foto2 p{
+        font-size: 15px;
+        margin-left: 40px;
+    }
+    .modul{
+        width: 95%;
+    }
+    .modul p{
+        margin-left: 10px;
+    }
+    .sertifikasi h1{
+        font-size: 30px;
+    }
+    .sertifikasi span{
+        font-size: 30px;
+    }
+    .navbarserti .teks{
+        text-align: left;
+        margin-left: -75px;
+    }
+    .navbarserti2 .text{
+        text-align: left;
+        margin-left: 45px;
+    }
+    .listserti li{
+        text-align: left;
+        font-size: 13px;
+    }
+    .navbarserti2 .listserti li{
+        text-align: left;
+        font-size: 13px;
+        margin-left: -75px;
+    }
+    .BNSP{
+        text-align: left;
+        margin-top: -2px;
+    }
+    .fotoserti img{
+        width:285px;
+        height:275px;
+        margin-left: -210px;
+        margin-top: 20px;
+    }
+    .gallery{
+        width: 430px;
+        border-radius: 10px;
+    }
+    .berikut{
+        font-size: 20px;
+    }
+    .containerdaftar p{
+        text-align: left;
+        margin-left: 70px;
+    }
+    .containerdaftar iframe{
+        margin-left: -10px;
+    }
+    .daftartengah img{
+        margin-left: -120px;
+        margin-top: -50px;
+    }
+    .bergabung{
+        margin-left: 50px;
+        width: 80%;
+        margin-top: 50px
+    }
+    .bergabung .untuk{
+        text-align: start;
+    }
+    .daftar1{
+        font-size: 30px;
+        text-align: start;
+        display: flex;
+    }
+    .Raih{
+        margin-top: 5px;
+
     }
 }
